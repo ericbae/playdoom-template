@@ -1,0 +1,386 @@
+[
+  {
+    "id": "01",
+    "map": "MAP01",
+    "name": "DM01: Tech Test",
+    "preview": "/assets/map-previews/MAP01.svg",
+    "shot": "/assets/map-shots/MAP01.png",
+    "stats": {
+      "things": 80,
+      "linedefs": 554,
+      "sectors": 108
+    }
+  },
+  {
+    "id": "02",
+    "map": "MAP02",
+    "name": "DM02: Natural Station",
+    "preview": "/assets/map-previews/MAP02.svg",
+    "shot": "/assets/map-shots/MAP02.png",
+    "stats": {
+      "things": 82,
+      "linedefs": 368,
+      "sectors": 58
+    }
+  },
+  {
+    "id": "03",
+    "map": "MAP03",
+    "name": "DM03: Issues of Claveria",
+    "preview": "/assets/map-previews/MAP03.svg",
+    "shot": "/assets/map-shots/MAP03.png",
+    "stats": {
+      "things": 103,
+      "linedefs": 427,
+      "sectors": 66
+    }
+  },
+  {
+    "id": "04",
+    "map": "MAP04",
+    "name": "DM04: Steel",
+    "preview": "/assets/map-previews/MAP04.svg",
+    "shot": "/assets/map-shots/MAP04.png",
+    "stats": {
+      "things": 70,
+      "linedefs": 628,
+      "sectors": 91
+    }
+  },
+  {
+    "id": "05",
+    "map": "MAP05",
+    "name": "DM05: Dense Fields",
+    "preview": "/assets/map-previews/MAP05.svg",
+    "shot": "/assets/map-shots/MAP05.png",
+    "stats": {
+      "things": 47,
+      "linedefs": 531,
+      "sectors": 105
+    }
+  },
+  {
+    "id": "06",
+    "map": "MAP06",
+    "name": "DM06: Temple of Ammon",
+    "preview": "/assets/map-previews/MAP06.svg",
+    "shot": "/assets/map-shots/MAP06.png",
+    "stats": {
+      "things": 62,
+      "linedefs": 505,
+      "sectors": 103
+    }
+  },
+  {
+    "id": "07",
+    "map": "MAP07",
+    "name": "DM07: Main Stronghold",
+    "preview": "/assets/map-previews/MAP07.svg",
+    "shot": "/assets/map-shots/MAP07.png",
+    "stats": {
+      "things": 48,
+      "linedefs": 329,
+      "sectors": 52
+    }
+  },
+  {
+    "id": "08",
+    "map": "MAP08",
+    "name": "DM08: Artifact Base",
+    "preview": "/assets/map-previews/MAP08.svg",
+    "shot": "/assets/map-shots/MAP08.png",
+    "stats": {
+      "things": 92,
+      "linedefs": 837,
+      "sectors": 204
+    }
+  },
+  {
+    "id": "09",
+    "map": "MAP09",
+    "name": "DM09: Industrial Outland",
+    "preview": "/assets/map-previews/MAP09.svg",
+    "shot": "/assets/map-shots/MAP09.png",
+    "stats": {
+      "things": 79,
+      "linedefs": 662,
+      "sectors": 151
+    }
+  },
+  {
+    "id": "10",
+    "map": "MAP10",
+    "name": "DM10: Detached Grounds",
+    "preview": "/assets/map-previews/MAP10.svg",
+    "shot": "/assets/map-shots/MAP10.png",
+    "stats": {
+      "things": 88,
+      "linedefs": 681,
+      "sectors": 139
+    }
+  },
+  {
+    "id": "11",
+    "map": "MAP11",
+    "name": "DM11: Isolated Facility",
+    "preview": "/assets/map-previews/MAP11.svg",
+    "shot": "/assets/map-shots/MAP11.png",
+    "stats": {
+      "things": 60,
+      "linedefs": 606,
+      "sectors": 63
+    }
+  },
+  {
+    "id": "12",
+    "map": "MAP12",
+    "name": "DM12: Up 'n' Down Canyon",
+    "preview": "/assets/map-previews/MAP12.svg",
+    "shot": "/assets/map-shots/MAP12.png",
+    "stats": {
+      "things": 21,
+      "linedefs": 253,
+      "sectors": 49
+    }
+  },
+  {
+    "id": "13",
+    "map": "MAP13",
+    "name": "DM13: Unholy Blood",
+    "preview": "/assets/map-previews/MAP13.svg",
+    "shot": "/assets/map-shots/MAP13.png",
+    "stats": {
+      "things": 38,
+      "linedefs": 436,
+      "sectors": 82
+    }
+  },
+  {
+    "id": "14",
+    "map": "MAP14",
+    "name": "DM14: Technical Assault",
+    "preview": "/assets/map-previews/MAP14.svg",
+    "shot": "/assets/map-shots/MAP14.png",
+    "stats": {
+      "things": 60,
+      "linedefs": 543,
+      "sectors": 106
+    }
+  },
+  {
+    "id": "15",
+    "map": "MAP15",
+    "name": "DM15: Shallow Complex",
+    "preview": "/assets/map-previews/MAP15.svg",
+    "shot": "/assets/map-shots/MAP15.png",
+    "stats": {
+      "things": 40,
+      "linedefs": 469,
+      "sectors": 98
+    }
+  },
+  {
+    "id": "16",
+    "map": "MAP16",
+    "name": "DM16: Barren Alleys",
+    "preview": "/assets/map-previews/MAP16.svg",
+    "shot": "/assets/map-shots/MAP16.png",
+    "stats": {
+      "things": 52,
+      "linedefs": 524,
+      "sectors": 50
+    }
+  },
+  {
+    "id": "17",
+    "map": "MAP17",
+    "name": "DM17: Underwoods",
+    "preview": "/assets/map-previews/MAP17.svg",
+    "shot": "/assets/map-shots/MAP17.png",
+    "stats": {
+      "things": 52,
+      "linedefs": 399,
+      "sectors": 75
+    }
+  },
+  {
+    "id": "18",
+    "map": "MAP18",
+    "name": "DM18: Deserted Courtyard",
+    "preview": "/assets/map-previews/MAP18.svg",
+    "shot": "/assets/map-shots/MAP18.png",
+    "stats": {
+      "things": 73,
+      "linedefs": 619,
+      "sectors": 123
+    }
+  },
+  {
+    "id": "19",
+    "map": "MAP19",
+    "name": "DM19: Tech Isle",
+    "preview": "/assets/map-previews/MAP19.svg",
+    "shot": "/assets/map-shots/MAP19.png",
+    "stats": {
+      "things": 138,
+      "linedefs": 1257,
+      "sectors": 215
+    }
+  },
+  {
+    "id": "20",
+    "map": "MAP20",
+    "name": "DM20: Warehouse",
+    "preview": "/assets/map-previews/MAP20.svg",
+    "shot": "/assets/map-shots/MAP20.png",
+    "stats": {
+      "things": 108,
+      "linedefs": 1446,
+      "sectors": 191
+    }
+  },
+  {
+    "id": "21",
+    "map": "MAP21",
+    "name": "DM21: Refinery",
+    "preview": "/assets/map-previews/MAP21.svg",
+    "shot": "/assets/map-shots/MAP21.png",
+    "stats": {
+      "things": 70,
+      "linedefs": 616,
+      "sectors": 101
+    }
+  },
+  {
+    "id": "22",
+    "map": "MAP22",
+    "name": "DM22: Military Depot",
+    "preview": "/assets/map-previews/MAP22.svg",
+    "shot": "/assets/map-shots/MAP22.png",
+    "stats": {
+      "things": 97,
+      "linedefs": 657,
+      "sectors": 138
+    }
+  },
+  {
+    "id": "23",
+    "map": "MAP23",
+    "name": "DM23: Confrontation",
+    "preview": "/assets/map-previews/MAP23.svg",
+    "shot": "/assets/map-shots/MAP23.png",
+    "stats": {
+      "things": 124,
+      "linedefs": 786,
+      "sectors": 113
+    }
+  },
+  {
+    "id": "24",
+    "map": "MAP24",
+    "name": "DM24: Flooded Base",
+    "preview": "/assets/map-previews/MAP24.svg",
+    "shot": "/assets/map-shots/MAP24.png",
+    "stats": {
+      "things": 102,
+      "linedefs": 1853,
+      "sectors": 336
+    }
+  },
+  {
+    "id": "25",
+    "map": "MAP25",
+    "name": "DM25: Mansion Yard",
+    "preview": "/assets/map-previews/MAP25.svg",
+    "shot": "/assets/map-shots/MAP25.png",
+    "stats": {
+      "things": 119,
+      "linedefs": 645,
+      "sectors": 91
+    }
+  },
+  {
+    "id": "26",
+    "map": "MAP26",
+    "name": "DM26: Acidic Crypt",
+    "preview": "/assets/map-previews/MAP26.svg",
+    "shot": "/assets/map-shots/MAP26.png",
+    "stats": {
+      "things": 59,
+      "linedefs": 395,
+      "sectors": 57
+    }
+  },
+  {
+    "id": "27",
+    "map": "MAP27",
+    "name": "DM27: The Exile",
+    "preview": "/assets/map-previews/MAP27.svg",
+    "shot": "/assets/map-shots/MAP27.png",
+    "stats": {
+      "things": 68,
+      "linedefs": 639,
+      "sectors": 152
+    }
+  },
+  {
+    "id": "28",
+    "map": "MAP28",
+    "name": "DM28: Weapons Factory",
+    "preview": "/assets/map-previews/MAP28.svg",
+    "shot": "/assets/map-shots/MAP28.png",
+    "stats": {
+      "things": 38,
+      "linedefs": 341,
+      "sectors": 62
+    }
+  },
+  {
+    "id": "29",
+    "map": "MAP29",
+    "name": "DM29: Unusual Territory",
+    "preview": "/assets/map-previews/MAP29.svg",
+    "shot": "/assets/map-shots/MAP29.png",
+    "stats": {
+      "things": 71,
+      "linedefs": 359,
+      "sectors": 56
+    }
+  },
+  {
+    "id": "30",
+    "map": "MAP30",
+    "name": "DM30: Last Man Standing",
+    "preview": "/assets/map-previews/MAP30.svg",
+    "shot": "/assets/map-shots/MAP30.png",
+    "stats": {
+      "things": 115,
+      "linedefs": 915,
+      "sectors": 162
+    }
+  },
+  {
+    "id": "31",
+    "map": "MAP31",
+    "name": "DM31: Desolated Fort",
+    "preview": "/assets/map-previews/MAP31.svg",
+    "shot": "/assets/map-shots/MAP31.png",
+    "stats": {
+      "things": 51,
+      "linedefs": 608,
+      "sectors": 128
+    }
+  },
+  {
+    "id": "32",
+    "map": "MAP32",
+    "name": "DM32: Fourplay",
+    "preview": "/assets/map-previews/MAP32.svg",
+    "shot": "/assets/map-shots/MAP32.png",
+    "stats": {
+      "things": 243,
+      "linedefs": 1111,
+      "sectors": 164
+    }
+  }
+]

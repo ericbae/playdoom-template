@@ -1,0 +1,33 @@
+{
+  "name": "playdoom-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:engine": "node scripts/fetch-engine.mjs",
+    "prepare:freedoom": "node scripts/fetch-freedoom.mjs",
+    "prepare:maps": "node scripts/generate-map-previews.mjs",
+    "capture:map-shots": "node scripts/capture-map-shots.mjs",
+    "prepare:assets": "npm run prepare:engine && npm run prepare:freedoom && npm run prepare:maps",
+    "verify": "node scripts/verify-assets.mjs",
+    "smoke": "npm run smoke:browser && npm run smoke:room",
+    "smoke:browser": "playwright test tests/smoke.spec.mjs --reporter=line",
+    "smoke:room": "node scripts/smoke-room.mjs",
+    "dev": "wrangler dev --local --port 8787",
+    "deploy": "npm run prepare:assets && npm run verify && wrangler deploy"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "wrangler": "^4.90.0"
+  },
+  "cloudflare": {
+    "bindings": {
+      "DOOM_KEY": {
+        "description": "Room-signing secret. Generate a random value with `openssl rand -hex 32`."
+      },
+      "ROOMS": {
+        "description": "Durable Object namespace for live game rooms. Cloudflare provisions this from `wrangler.jsonc`."
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+Engine artifact source
+
+Downloaded from Cloudflare's public Silent Space Marine demo:
+https://silentspacemarine.com/
+
+Upstream source repositories:
+https://github.com/cloudflare/doom
+https://github.com/cloudflare/doom-wasm
+
+This project uses these prebuilt files for the first runnable MVP.
+For a production distribution, build the WebAssembly artifact from source
+with the matching Emscripten toolchain and publish build instructions.

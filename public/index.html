@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doom Link Arena</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body data-screen="choice">
+    <main class="app-shell">
+      <section class="game-stage" aria-label="Doom game">
+        <canvas id="canvas" tabindex="-1" oncontextmenu="event.preventDefault()"></canvas>
+        <div id="stage-overlay" class="stage-overlay">
+          <span>DOOM</span>
+        </div>
+      </section>
+
+      <section id="choice-screen" class="center-screen choice-screen">
+        <div class="choice-actions">
+          <button id="choose-host" class="choice-button primary" type="button">Start a new game</button>
+          <button id="choose-join" class="choice-button" type="button">Join a game</button>
+        </div>
+      </section>
+
+      <section id="setup-screen" class="center-screen setup-screen is-hidden">
+        <div class="setup-panel">
+          <button id="back-choice" class="back-button" type="button">Back</button>
+
+          <div id="host-setup" class="setup-pane">
+            <h1>Start new game</h1>
+            <label class="field">
+              <span>Name</span>
+              <input id="host-player-name" data-player-name maxlength="15" autocomplete="nickname" placeholder="Marine">
+            </label>
+            <label class="field compact">
+              <span>Map</span>
+              <select id="map-select"></select>
+            </label>
+            <div class="map-preview">
+              <figure>
+                <span>Preview</span>
+                <img id="host-map-shot" alt="">
+              </figure>
+              <figure>
+                <span>Map</span>
+                <img id="host-map-plan" alt="">
+              </figure>
+              <div class="map-meta">
+                <strong id="host-map-name">MAP08</strong>
+                <span id="host-map-stats">Loading map preview</span>
+              </div>
+            </div>
+            <label class="field compact">
+              <span>Time limit</span>
+              <select id="time-limit">
+                <option value="0">No limit</option>
+                <option value="5">5 minutes</option>
+                <option value="10" selected>10 minutes</option>
+                <option value="15">15 minutes</option>
+                <option value="20">20 minutes</option>
+              </select>
+            </label>
+            <button id="host-game" class="primary-action" type="button">Start and get link</button>
+          </div>
+
+          <div id="join-setup" class="setup-pane">
+            <h1>Join game</h1>
+            <label class="field">
+              <span>Name</span>
+              <input id="join-player-name" data-player-name maxlength="15" autocomplete="nickname" placeholder="Marine">
+            </label>
+            <label class="field compact">
+              <span>Game link</span>
+              <input id="join-link" autocomplete="off" placeholder="Paste invite link">
+            </label>
+            <div id="join-map-preview" class="map-preview is-hidden">
+              <figure>
+                <span>Preview</span>
+                <img id="join-map-shot" alt="">
+              </figure>
+              <figure>
+                <span>Map</span>
+                <img id="join-map-plan" alt="">
+              </figure>
+              <div class="map-meta">
+                <strong id="join-map-name">MAP08</strong>
+                <span id="join-map-stats">Map from invite link</span>
+              </div>
+            </div>
+            <button id="join-game" class="primary-action" type="button" disabled>Join game</button>
+          </div>
+        </div>
+      </section>
+
+      <aside id="game-panel" class="game-panel is-hidden">
+        <p class="eyebrow">Doom Link Arena</p>
+        <h1 id="game-map-title">MAP08</h1>
+        <div class="room-code">
+          <span>Invite link</span>
+          <output id="game-room-output">No invite yet</output>
+          <button id="game-copy-link" type="button" disabled>Copy invite</button>
+        </div>
+        <button id="leave-game" type="button">Leave game</button>
+      </aside>
+
+      <section id="ended-screen" class="center-screen ended-screen is-hidden">
+        <div class="setup-panel">
+          <h1>Game ended</h1>
+          <button id="back-menu" class="primary-action" type="button">Back to menu</button>
+        </div>
+      </section>
+
+      <div id="status-stack" class="status-stack is-hidden" aria-live="polite">
+        <p id="engine-status">Engine loading</p>
+        <p id="room-status">Ready</p>
+      </div>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
