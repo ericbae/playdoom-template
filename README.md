@@ -21,6 +21,8 @@ Deploy your own copy to your Cloudflare account:
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ericbae/playdoom-template)
 
+The button sends you through Cloudflare's deploy flow. You do not need to add `CLOUDFLARE_ACCOUNT_ID` or `CLOUDFLARE_API_TOKEN` to this repository for that path; Cloudflare handles account authentication during setup. Set `DOOM_KEY` when Cloudflare prompts for template secrets.
+
 For manual setup and GitHub Actions notes, see [SELF_HOSTING.md](./SELF_HOSTING.md).
 
 ## Test
