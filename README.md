@@ -1,6 +1,8 @@
 # PlayDoom Template
 
-Browser-hosted multiplayer Doom with one selected FreeDM deathmatch map, sound effects, and shareable room links.
+Deployable Cloudflare Worker template for private browser deathmatch rooms with FreeDM maps, sound effects, and shareable invite links.
+
+This is the game template repo. The public explainer site lives separately at [`playdoom.ossy.dev`](https://playdoom.ossy.dev).
 
 ## Quick Start
 
@@ -15,11 +17,11 @@ Open `http://localhost:8787`.
 
 ## Self-Host
 
-If someone wants to run their own copy, they can deploy this project to their own Cloudflare account. See [SELF_HOSTING.md](./SELF_HOSTING.md).
+Deploy your own copy to your Cloudflare account:
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ericbae/playdoom-template)
 
-For the `playdoom.ossy.dev` installer product packaging, see [docs/product-packaging.md](./docs/product-packaging.md).
+For manual setup and GitHub Actions notes, see [SELF_HOSTING.md](./SELF_HOSTING.md).
 
 ## Test
 
