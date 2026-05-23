@@ -2,7 +2,7 @@
 
 Deployable Cloudflare Worker template for private browser deathmatch rooms with FreeDM maps, sound effects, and shareable invite links.
 
-This is the game template repo. The public explainer site lives separately at [`playdoom.ossy.dev`](https://playdoom.ossy.dev).
+This is the game template repo. The public explainer and step-by-step deploy guide lives separately at [`playdoom.ossy.dev`](https://playdoom.ossy.dev).
 
 ## Quick Start
 
@@ -21,7 +21,11 @@ Deploy your own copy to your Cloudflare account:
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ericbae/playdoom-template)
 
+For the user-friendly deployment walkthrough, start at [`playdoom.ossy.dev#guide`](https://playdoom.ossy.dev#guide).
+
 The button sends you through Cloudflare's deploy flow. You do not need to add `CLOUDFLARE_ACCOUNT_ID` or `CLOUDFLARE_API_TOKEN` to this repository for that path; Cloudflare handles account authentication during setup. Set `DOOM_KEY` when Cloudflare prompts for template secrets.
+
+For tighter GitHub access, create an empty repository in your own GitHub account first. During Cloudflare's GitHub authorization step, grant Cloudflare access only to that empty repository, then use it as the destination for the deployed copy.
 
 For manual setup and GitHub Actions notes, see [SELF_HOSTING.md](./SELF_HOSTING.md).
 

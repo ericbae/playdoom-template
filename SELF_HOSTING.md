@@ -10,6 +10,15 @@ After this repository is public on GitHub or GitLab, use this button:
 
 Cloudflare will clone the repository into the user's Git account, provision the Durable Object binding from `wrangler.jsonc`, run the deploy command from `package.json`, and publish the Worker on that user's account. This flow does not require the user to manually add `CLOUDFLARE_ACCOUNT_ID` or `CLOUDFLARE_API_TOKEN` as GitHub secrets.
 
+Recommended GitHub access flow:
+
+1. Create an empty GitHub repository in your own account.
+2. Do not add a README, license, or gitignore file.
+3. Click the Deploy to Cloudflare button.
+4. When GitHub asks what Cloudflare can access, choose only the empty repository you created.
+5. Continue the Cloudflare setup flow and use that repository as the destination.
+6. After deployment, Cloudflare will show your new `workers.dev` URL.
+
 During setup, set `DOOM_KEY` to a random value:
 
 ```bash
