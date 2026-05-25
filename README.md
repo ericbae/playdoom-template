@@ -23,7 +23,7 @@ Deploy your own copy to your Cloudflare account:
 
 For the user-friendly deployment walkthrough, start at [`playdoom.ossy.dev#guide`](https://playdoom.ossy.dev#guide).
 
-The button sends you through Cloudflare's deploy flow. You do not need to add `CLOUDFLARE_ACCOUNT_ID` or `CLOUDFLARE_API_TOKEN` to this repository for that path; Cloudflare handles account authentication during setup. Set `DOOM_KEY` when Cloudflare prompts for template secrets.
+The button sends you through Cloudflare's deploy flow. You do not need to add `CLOUDFLARE_ACCOUNT_ID` or `CLOUDFLARE_API_TOKEN` to this repository for that path; Cloudflare handles account authentication during setup. Review the generated resources and `DOOM_KEY` during setup, then keep the defaults unless you want to rename the Worker.
 
 For tighter GitHub access, create an empty repository in your own GitHub account first. During Cloudflare's GitHub authorization step, grant Cloudflare access only to that empty repository, then use it as the destination for the deployed copy.
 
@@ -47,7 +47,7 @@ npx wrangler secret put DOOM_KEY
 npm run deploy
 ```
 
-`DOOM_KEY` signs private room IDs. Localhost development falls back to a development key if no secret is set; deployed Workers require the secret.
+`DOOM_KEY` signs private room IDs. The Deploy to Cloudflare flow presents this secret during setup. Localhost development falls back to a development key if no secret is set; deployed Workers require the secret.
 
 ## What This Uses
 

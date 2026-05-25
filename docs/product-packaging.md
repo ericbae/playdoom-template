@@ -67,7 +67,7 @@ The game template repo must stay one-click deployable:
 
 - `package.json` deploy script prepares assets and runs `wrangler deploy`.
 - `wrangler.jsonc` defines Static Assets and Durable Objects.
-- `DOOM_KEY` is documented as the only required secret.
+- `DOOM_KEY` is presented during the Deploy to Cloudflare setup flow.
 - Asset scripts download legal FreeDM and engine artifacts.
 
 ## Future Backend Deploy Service

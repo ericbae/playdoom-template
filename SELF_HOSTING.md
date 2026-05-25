@@ -17,13 +17,8 @@ Recommended GitHub access flow:
 3. Click the Deploy to Cloudflare button.
 4. When GitHub asks what Cloudflare can access, choose only the empty repository you created.
 5. Continue the Cloudflare setup flow and use that repository as the destination.
-6. After deployment, Cloudflare will show your new `workers.dev` URL.
-
-During setup, set `DOOM_KEY` to a random value:
-
-```bash
-openssl rand -hex 32
-```
+6. Review the generated resources and `DOOM_KEY`, then keep the defaults unless you want to rename the Worker.
+7. After deployment, Cloudflare will show your new `workers.dev` URL.
 
 ## Manual Deploy
 

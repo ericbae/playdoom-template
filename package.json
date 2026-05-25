@@ -23,7 +23,7 @@
   "cloudflare": {
     "bindings": {
       "DOOM_KEY": {
-        "description": "Room-signing secret. Generate a random value with `openssl rand -hex 32`."
+        "description": "Room-signing secret. Keep the generated value unless you want to replace it with your own random secret."
       },
       "ROOMS": {
         "description": "Durable Object namespace for live game rooms. Cloudflare provisions this from `wrangler.jsonc`."
